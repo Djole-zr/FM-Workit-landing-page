@@ -37,7 +37,7 @@ body {
     url(assets/images/hero-background2.svg);
   background-size: 50vw, 12vw, 21vw, contain, contain;
   background-repeat: no-repeat;
-  background-position: 28vw 33vw, 91vw 22vw, -7vw 11vw, 0 0, 0 10vw;
+  background-position: 28vw 33vw, 91vw 22vw, -7vw 11vw, 0 0, 0 20vw;
 }
 
 main {
@@ -61,6 +61,11 @@ main {
   line-height: 3.2rem;
   letter-spacing: -0.018rem;
   border-bottom: 0.3rem solid #44ffa1;
+  cursor: pointer;
+}
+
+.btn-hero:hover {
+  color: #44ffa1;
 }
 
 h1,
@@ -86,17 +91,25 @@ h1 span {
 .btn {
   color: #24053e;
   background-color: #44ffa1;
+  border: 2px solid #44ffa1;
   padding: 0.72em 1.78em 0.89em;
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 3.2rem;
   letter-spacing: -0.018rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid #44ffa1;
+  color: #44ffa1;
 }
 
 .points {
   width: 100%;
   padding-bottom: 13vw;
-  margin-bottom: 20vw;
+  margin-bottom: 19vw;
   background-image: url(assets/images/hero-background2.svg);
   background-position: bottom;
   background-size: cover;
@@ -170,7 +183,7 @@ h1 span {
   width: 51vw;
   padding: 64px;
   margin: 0 11.5vw 0 auto;
-  margin-bottom: 20vw;
+  margin-bottom: 10vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -180,10 +193,10 @@ h1 span {
 
 .founder::before {
   content: "";
-  background-color: #44FFA1;
+  background-color: #44ffa1;
   background-image: url(assets/images/image-founder.webp);
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
   background-size: contain;
   width: 33vw;
   height: 33vw;
@@ -196,14 +209,14 @@ h1 span {
 
 .founder::after {
   content: "";
-  width: 50vw;
+  width: 35vw;
   height: 50vw;
   position: absolute;
   bottom: -20vw;
   left: 43%;
   background-image: url(assets/images/bg-pattern-3.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: auto;
   background-position: 10vw 20vw;
 }
 
@@ -226,7 +239,7 @@ h3 {
   width: 5vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 2vw;
+  row-gap: 3vw;
   column-gap: 1.9vw;
   margin: 0 auto 10vw;
   justify-items: center;
@@ -234,6 +247,11 @@ h3 {
 
 .social-logo {
   fill: #584D62;
+  cursor: pointer;
+}
+
+.social-logo:hover {
+  fill: #24053E;
 }
 .logo-dark {
   grid-column: span 3;
