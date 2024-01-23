@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Fraunces 144pt";
+  font-family: Fraunces;
   src: url(/assets/fonts-files/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
 }
 
 @font-face {
-  font-family: "Manrope";
+  font-family: Manrope;
   src: url(/assets/fonts-files/Manrope-VariableFont_wght.ttf);
 }
 
@@ -30,7 +30,7 @@ html {
 }
 
 body {
-  font-family: "Manrope", sans-serif;
+  font-family: Manrope, sans-serif;
   background-image: url(assets/images/image-hero.webp),
     url(assets/images/bg-pattern-2.svg), url(assets/images/bg-pattern-1.svg),
     url(assets/images/hero-background.svg),
@@ -66,7 +66,7 @@ main {
 h1,
 h2,
 h3 {
-  font-family: "Fraunces 144pt";
+  font-family: Fraunces, serif;;
 }
 
 h1 {
@@ -133,7 +133,7 @@ h1 span {
 .number {
   color: #24053e;
   text-align: center;
-  font-family: "Fraunces 144pt";
+  font-family: Fraunces, serif;
   font-size: 2.4rem;
   font-weight: 600;
   line-height: 4rem;
@@ -189,20 +189,21 @@ h1 span {
   height: 33vw;
   border-radius: 50%;
   position: absolute;
-  top: -40%;
+  top: -12vw;
   left: -50%;
   z-index: -1;
 }
 
 .founder::after {
   content: "";
-  width: 33vw;
-  height: 33vw;
+  width: 50vw;
+  height: 50vw;
   position: absolute;
-  top: -7%;
+  bottom: -20vw;
   left: 43%;
   background-image: url(assets/images/bg-pattern-3.svg);
   background-repeat: no-repeat;
+  background-position: center;
   background-position: 10vw 20vw;
 }
 
@@ -226,10 +227,14 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 2vw;
+  column-gap: 1.9vw;
   margin: 0 auto 10vw;
   justify-items: center;
 }
 
+.social-logo {
+  fill: #584D62;
+}
 .logo-dark {
   grid-column: span 3;
 }
