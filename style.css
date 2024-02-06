@@ -455,13 +455,4 @@
     }
   }
 
-  @media (min-width: 129em) {
-    html {
-      font-size: 100%;
-    }
-  }
-  @media (min-width: 191em) {
-    html {
-      font-size: 140%;
-    }
-  }
+  
