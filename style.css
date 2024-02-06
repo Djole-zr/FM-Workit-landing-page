@@ -416,10 +416,10 @@
     }
     
     .founder::before {
-      width: 36.59vw;
-      height: 36.59vw;
+      width: 33.125vw;
+      height: 33.125vw;
       top: -12vw;
-      left: -50%;
+      left: -52%;
     }
 
     .founder::after {
@@ -441,7 +441,7 @@
     }
   
     .social {
-      /* width: 15.10vw; */
+      width: 8.06vw;
       row-gap: 4vw;
       column-gap: 1.94vw;
       margin: 0 auto 7.64vw;
