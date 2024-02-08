@@ -16,7 +16,6 @@
 .prettierignore
 
 zadatak/
-assets/fonts/
 backstop_data/
 backstop.json
 
